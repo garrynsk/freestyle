@@ -1,0 +1,27 @@
+{
+  "name": "freestyle",
+  "version": "0.0.1",
+  "description": "Static site generator, which gives you complete freedom with technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garrynsk/freestyle.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator",
+    "website",
+    "freestyle",
+    "js"
+  ],
+  "author": "Victoria Zakharova <garrynsk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrynsk/freestyle/issues"
+  },
+  "homepage": "https://github.com/garrynsk/freestyle#readme"
+}
