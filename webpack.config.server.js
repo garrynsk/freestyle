@@ -14,23 +14,10 @@ module.exports = {
         whitelist: ['webpack/hot/poll?1000']
     })],
     mode: 'development',
-    module: {
-        rules: [{
-            test: /\.js?$/,
-            use: 'babel-loader',
-            exclude: /node_modules/
-        }]
-    },
     plugins: [
         new StartServerPlugin('server.js'),
-        new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        new webpack.DefinePlugin({
-            "process.env": {
-                "BUILD_TARGET": JSON.stringify('index')
-            }
-        }),
     ],
     output: {
         path: path.join(__dirname, '.build'),

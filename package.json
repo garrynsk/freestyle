@@ -37,9 +37,6 @@
   },
   "homepage": "https://github.com/garrynsk/freestyle#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
     "config": "^1.30.0",
     "cors": "^2.8.4",
     "fastify": "^1.2.1",
